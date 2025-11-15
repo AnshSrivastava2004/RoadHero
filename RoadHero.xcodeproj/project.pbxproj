@@ -6,12 +6,82 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9C520F0B2EC7278500AADCF5 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EEE2EC7278500AADCF5 /* LocationService.swift */; };
+		9C520F0C2EC7278500AADCF5 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF72EC7278500AADCF5 /* Data+Extensions.swift */; };
+		9C520F0D2EC7278500AADCF5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EE52EC7278500AADCF5 /* LoginViewController.swift */; };
+		9C520F0E2EC7278500AADCF5 /* ActiveTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EE32EC7278500AADCF5 /* ActiveTicketsViewController.swift */; };
+		9C520F0F2EC7278500AADCF5 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EE72EC7278500AADCF5 /* ResetPasswordViewController.swift */; };
+		9C520F102EC7278500AADCF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EE42EC7278500AADCF5 /* HomeViewController.swift */; };
+		9C520F112EC7278500AADCF5 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EE62EC7278500AADCF5 /* NewPasswordViewController.swift */; };
+		9C520F122EC7278500AADCF5 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF82EC7278500AADCF5 /* LoadingOverlay.swift */; };
+		9C520F132EC7278500AADCF5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF02EC7278500AADCF5 /* SessionManager.swift */; };
+		9C520F142EC7278500AADCF5 /* TicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF92EC7278500AADCF5 /* TicketCell.swift */; };
+		9C520F152EC7278500AADCF5 /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF12EC7278500AADCF5 /* SupabaseManager.swift */; };
+		9C520F162EC7278500AADCF5 /* TicketSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EEA2EC7278500AADCF5 /* TicketSubmitViewController.swift */; };
+		9C520F172EC7278500AADCF5 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF62EC7278500AADCF5 /* AppNavigation.swift */; };
+		9C520F182EC7278500AADCF5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF42EC7278500AADCF5 /* UserService.swift */; };
+		9C520F192EC7278500AADCF5 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EFC2EC7278500AADCF5 /* UIColor+Hex.swift */; };
+		9C520F1A2EC7278500AADCF5 /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EFD2EC7278500AADCF5 /* UIImageView+URL.swift */; };
+		9C520F1B2EC7278500AADCF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520F082EC7278500AADCF5 /* SceneDelegate.swift */; };
+		9C520F1C2EC7278500AADCF5 /* ResolvedTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EE82EC7278500AADCF5 /* ResolvedTicketsViewController.swift */; };
+		9C520F1D2EC7278500AADCF5 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF22EC7278500AADCF5 /* Ticket.swift */; };
+		9C520F1E2EC7278500AADCF5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EED2EC7278500AADCF5 /* AuthService.swift */; };
+		9C520F1F2EC7278500AADCF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520F002EC7278500AADCF5 /* AppDelegate.swift */; };
+		9C520F202EC7278500AADCF5 /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EFA2EC7278500AADCF5 /* UnderlinedTextField.swift */; };
+		9C520F212EC7278500AADCF5 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EE92EC7278500AADCF5 /* SignupViewController.swift */; };
+		9C520F222EC7278500AADCF5 /* TicketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EF32EC7278500AADCF5 /* TicketService.swift */; };
+		9C520F232EC7278500AADCF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EEB2EC7278500AADCF5 /* ViewController.swift */; };
+		9C520F242EC7278500AADCF5 /* PotholeMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EEF2EC7278500AADCF5 /* PotholeMetadata.swift */; };
+		9C520F252EC7278500AADCF5 /* UIViewController+BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520EE12EC7278500AADCF5 /* UIViewController+BackButton.swift */; };
+		9C520F262EC7278500AADCF5 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C520F022EC7278500AADCF5 /* Env.swift */; };
+		9C92823C2EBF39FB002B773A /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9C92823B2EBF39FB002B773A /* Supabase */; };
+		9C92823E2EBF3A2F002B773A /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 9C92823D2EBF3A2F002B773A /* PostgREST */; };
+		9C9282402EBF3A3C002B773A /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 9C92823F2EBF3A3C002B773A /* Auth */; };
+		9C9282422EBF3A3C002B773A /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 9C9282412EBF3A3C002B773A /* Functions */; };
+		9C9282442EBF3A3C002B773A /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 9C9282432EBF3A3C002B773A /* Realtime */; };
+		9C9282462EBF3A3C002B773A /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 9C9282452EBF3A3C002B773A /* Storage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9C004C382EA6122600158AEB /* RoadHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C520EE12EC7278500AADCF5 /* UIViewController+BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+BackButton.swift"; sourceTree = "<group>"; };
+		9C520EE32EC7278500AADCF5 /* ActiveTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTicketsViewController.swift; sourceTree = "<group>"; };
+		9C520EE42EC7278500AADCF5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C520EE52EC7278500AADCF5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9C520EE62EC7278500AADCF5 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		9C520EE72EC7278500AADCF5 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		9C520EE82EC7278500AADCF5 /* ResolvedTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolvedTicketsViewController.swift; sourceTree = "<group>"; };
+		9C520EE92EC7278500AADCF5 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		9C520EEA2EC7278500AADCF5 /* TicketSubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSubmitViewController.swift; sourceTree = "<group>"; };
+		9C520EEB2EC7278500AADCF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C520EED2EC7278500AADCF5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9C520EEE2EC7278500AADCF5 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		9C520EEF2EC7278500AADCF5 /* PotholeMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotholeMetadata.swift; sourceTree = "<group>"; };
+		9C520EF02EC7278500AADCF5 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		9C520EF12EC7278500AADCF5 /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		9C520EF22EC7278500AADCF5 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		9C520EF32EC7278500AADCF5 /* TicketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketService.swift; sourceTree = "<group>"; };
+		9C520EF42EC7278500AADCF5 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		9C520EF62EC7278500AADCF5 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		9C520EF72EC7278500AADCF5 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		9C520EF82EC7278500AADCF5 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		9C520EF92EC7278500AADCF5 /* TicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCell.swift; sourceTree = "<group>"; };
+		9C520EFA2EC7278500AADCF5 /* UnderlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
+		9C520EFC2EC7278500AADCF5 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		9C520EFD2EC7278500AADCF5 /* UIImageView+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
+		9C520F002EC7278500AADCF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C520F012EC7278500AADCF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C520F022EC7278500AADCF5 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		9C520F032EC7278500AADCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C520F042EC7278500AADCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C520F062EC7278500AADCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C520F082EC7278500AADCF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C520F092EC7278500AADCF5 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9C004C4A2EA6122800158AEB /* Exceptions for "RoadHero" folder in "RoadHero" target */ = {
+		9C520F2E2EC72C1200AADCF5 /* Exceptions for "RoadHero" folder in "RoadHero" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +94,7 @@
 		9C004C3A2EA6122600158AEB /* RoadHero */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9C004C4A2EA6122800158AEB /* Exceptions for "RoadHero" folder in "RoadHero" target */,
+				9C520F2E2EC72C1200AADCF5 /* Exceptions for "RoadHero" folder in "RoadHero" target */,
 			);
 			path = RoadHero;
 			sourceTree = "<group>";
@@ -36,6 +106,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9282462EBF3A3C002B773A /* Storage in Frameworks */,
+				9C92823E2EBF3A2F002B773A /* PostgREST in Frameworks */,
+				9C92823C2EBF39FB002B773A /* Supabase in Frameworks */,
+				9C9282422EBF3A3C002B773A /* Functions in Frameworks */,
+				9C9282442EBF3A3C002B773A /* Realtime in Frameworks */,
+				9C9282402EBF3A3C002B773A /* Auth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				9C004C3A2EA6122600158AEB /* RoadHero */,
+				9C92823A2EBF39FB002B773A /* Frameworks */,
 				9C004C392EA6122600158AEB /* Products */,
+				9C520F0A2EC7278500AADCF5 /* RoadHero */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +134,101 @@
 				9C004C382EA6122600158AEB /* RoadHero.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9C520EE22EC7278500AADCF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C520EE12EC7278500AADCF5 /* UIViewController+BackButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C520EEC2EC7278500AADCF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C520EE22EC7278500AADCF5 /* Extensions */,
+				9C520EE32EC7278500AADCF5 /* ActiveTicketsViewController.swift */,
+				9C520EE42EC7278500AADCF5 /* HomeViewController.swift */,
+				9C520EE52EC7278500AADCF5 /* LoginViewController.swift */,
+				9C520EE62EC7278500AADCF5 /* NewPasswordViewController.swift */,
+				9C520EE72EC7278500AADCF5 /* ResetPasswordViewController.swift */,
+				9C520EE82EC7278500AADCF5 /* ResolvedTicketsViewController.swift */,
+				9C520EE92EC7278500AADCF5 /* SignupViewController.swift */,
+				9C520EEA2EC7278500AADCF5 /* TicketSubmitViewController.swift */,
+				9C520EEB2EC7278500AADCF5 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C520EF52EC7278500AADCF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C520EED2EC7278500AADCF5 /* AuthService.swift */,
+				9C520EEE2EC7278500AADCF5 /* LocationService.swift */,
+				9C520EEF2EC7278500AADCF5 /* PotholeMetadata.swift */,
+				9C520EF02EC7278500AADCF5 /* SessionManager.swift */,
+				9C520EF12EC7278500AADCF5 /* SupabaseManager.swift */,
+				9C520EF22EC7278500AADCF5 /* Ticket.swift */,
+				9C520EF32EC7278500AADCF5 /* TicketService.swift */,
+				9C520EF42EC7278500AADCF5 /* UserService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C520EFB2EC7278500AADCF5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9C520EF62EC7278500AADCF5 /* AppNavigation.swift */,
+				9C520EF72EC7278500AADCF5 /* Data+Extensions.swift */,
+				9C520EF82EC7278500AADCF5 /* LoadingOverlay.swift */,
+				9C520EF92EC7278500AADCF5 /* TicketCell.swift */,
+				9C520EFA2EC7278500AADCF5 /* UnderlinedTextField.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9C520EFE2EC7278500AADCF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C520EFC2EC7278500AADCF5 /* UIColor+Hex.swift */,
+				9C520EFD2EC7278500AADCF5 /* UIImageView+URL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C520EFF2EC7278500AADCF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C520EFE2EC7278500AADCF5 /* Extensions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C520F0A2EC7278500AADCF5 /* RoadHero */ = {
+			isa = PBXGroup;
+			children = (
+				9C520EEC2EC7278500AADCF5 /* Controllers */,
+				9C520EF52EC7278500AADCF5 /* Models */,
+				9C520EFB2EC7278500AADCF5 /* Utils */,
+				9C520EFF2EC7278500AADCF5 /* Views */,
+				9C520F002EC7278500AADCF5 /* AppDelegate.swift */,
+				9C520F012EC7278500AADCF5 /* Assets.xcassets */,
+				9C520F022EC7278500AADCF5 /* Env.swift */,
+				9C520F032EC7278500AADCF5 /* Info.plist */,
+				9C520F052EC7278500AADCF5 /* LaunchScreen.storyboard */,
+				9C520F072EC7278500AADCF5 /* Main.storyboard */,
+				9C520F082EC7278500AADCF5 /* SceneDelegate.swift */,
+				9C520F092EC7278500AADCF5 /* Secrets.xcconfig */,
+			);
+			path = RoadHero;
+			sourceTree = "<group>";
+		};
+		9C92823A2EBF39FB002B773A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +251,12 @@
 			);
 			name = RoadHero;
 			packageProductDependencies = (
+				9C92823B2EBF39FB002B773A /* Supabase */,
+				9C92823D2EBF3A2F002B773A /* PostgREST */,
+				9C92823F2EBF3A3C002B773A /* Auth */,
+				9C9282412EBF3A3C002B773A /* Functions */,
+				9C9282432EBF3A3C002B773A /* Realtime */,
+				9C9282452EBF3A3C002B773A /* Storage */,
 			);
 			productName = RoadHero;
 			productReference = 9C004C382EA6122600158AEB /* RoadHero.app */;
@@ -107,6 +286,9 @@
 			);
 			mainGroup = 9C004C2F2EA6122600158AEB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9C9282392EBF3899002B773A /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9C004C392EA6122600158AEB /* Products */;
 			projectDirPath = "";
@@ -132,10 +314,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C520F0B2EC7278500AADCF5 /* LocationService.swift in Sources */,
+				9C520F0C2EC7278500AADCF5 /* Data+Extensions.swift in Sources */,
+				9C520F0D2EC7278500AADCF5 /* LoginViewController.swift in Sources */,
+				9C520F0E2EC7278500AADCF5 /* ActiveTicketsViewController.swift in Sources */,
+				9C520F0F2EC7278500AADCF5 /* ResetPasswordViewController.swift in Sources */,
+				9C520F102EC7278500AADCF5 /* HomeViewController.swift in Sources */,
+				9C520F112EC7278500AADCF5 /* NewPasswordViewController.swift in Sources */,
+				9C520F122EC7278500AADCF5 /* LoadingOverlay.swift in Sources */,
+				9C520F132EC7278500AADCF5 /* SessionManager.swift in Sources */,
+				9C520F142EC7278500AADCF5 /* TicketCell.swift in Sources */,
+				9C520F152EC7278500AADCF5 /* SupabaseManager.swift in Sources */,
+				9C520F162EC7278500AADCF5 /* TicketSubmitViewController.swift in Sources */,
+				9C520F172EC7278500AADCF5 /* AppNavigation.swift in Sources */,
+				9C520F182EC7278500AADCF5 /* UserService.swift in Sources */,
+				9C520F192EC7278500AADCF5 /* UIColor+Hex.swift in Sources */,
+				9C520F1A2EC7278500AADCF5 /* UIImageView+URL.swift in Sources */,
+				9C520F1B2EC7278500AADCF5 /* SceneDelegate.swift in Sources */,
+				9C520F1C2EC7278500AADCF5 /* ResolvedTicketsViewController.swift in Sources */,
+				9C520F1D2EC7278500AADCF5 /* Ticket.swift in Sources */,
+				9C520F1E2EC7278500AADCF5 /* AuthService.swift in Sources */,
+				9C520F1F2EC7278500AADCF5 /* AppDelegate.swift in Sources */,
+				9C520F202EC7278500AADCF5 /* UnderlinedTextField.swift in Sources */,
+				9C520F212EC7278500AADCF5 /* SignupViewController.swift in Sources */,
+				9C520F222EC7278500AADCF5 /* TicketService.swift in Sources */,
+				9C520F232EC7278500AADCF5 /* ViewController.swift in Sources */,
+				9C520F242EC7278500AADCF5 /* PotholeMetadata.swift in Sources */,
+				9C520F252EC7278500AADCF5 /* UIViewController+BackButton.swift in Sources */,
+				9C520F262EC7278500AADCF5 /* Env.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C520F052EC7278500AADCF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C520F042EC7278500AADCF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9C520F072EC7278500AADCF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C520F062EC7278500AADCF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9C004C4C2EA6122800158AEB /* Debug */ = {
@@ -143,15 +372,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9KRC865JT8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoadHero/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a photo of the issue.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to attach it to the support ticket.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,6 +393,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AnshSrivastava.RoadHero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -174,15 +411,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9KRC865JT8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoadHero/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a photo of the issue.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to attach it to the support ticket.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -191,6 +432,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AnshSrivastava.RoadHero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -341,6 +586,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C9282392EBF3899002B773A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C92823B2EBF39FB002B773A /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C9282392EBF3899002B773A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		9C92823D2EBF3A2F002B773A /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C9282392EBF3899002B773A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		9C92823F2EBF3A3C002B773A /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C9282392EBF3899002B773A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		9C9282412EBF3A3C002B773A /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C9282392EBF3899002B773A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		9C9282432EBF3A3C002B773A /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C9282392EBF3899002B773A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		9C9282452EBF3A3C002B773A /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C9282392EBF3899002B773A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C004C302EA6122600158AEB /* Project object */;
 }

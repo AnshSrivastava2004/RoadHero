@@ -1,0 +1,15 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+xcuserdata/
+*.perspectivev3
+
+# Swift Packages
+/.build/
+
+# Env files
+Env.swift
+
+# Other
+.DS_Store
